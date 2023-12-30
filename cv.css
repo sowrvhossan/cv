@@ -1,0 +1,144 @@
+
+*{
+    padding: 0%;
+    margin: 0%;
+}
+body{
+    padding: 0px;
+    margin: 0%;
+    background-color: #d9d9d9;
+}
+.full_page{
+    padding: 20px;
+    margin: 0% auto;
+    max-width: 80%;
+    background-color: #e9edc9;
+}
+/*head div stard css*/
+#head_fill{
+    position: fixed;
+}
+.imge_div{
+ float: left;   
+}
+.imge_link{
+    max-width: 150px;
+    padding: 0px;
+    margin: 0%;
+    border: 5px solid #073b4c;
+}
+
+.head_title_div{
+    padding: 30px 20px;
+    margin: 0%;
+    float: left;
+}
+
+#head_title_div_h1{
+    color: #2a9d8f;
+    text-transform: uppercase;
+    font-family: Arial, Helvetica, sans-serif;
+}
+#head_title_div_h1::selection{
+    color: #780000;
+}
+#head_title_div_h3{
+    color: #2a9d8f;
+    text-transform: uppercase;
+    font-family: Arial, Helvetica, sans-serif;
+}
+#head_title_div_h3::selection{
+    color: #780000;
+}
+.head_title_div_contect{
+    float: right;
+    padding: 30px 0px;
+
+}
+#head_email{
+    font-size: 18px;
+    font-weight: bolder;
+    font-family: Arial, Helvetica, sans-serif;
+    color: #2a9d8f;
+}
+#head_call :hover{
+    color: #c1121f;
+}
+.head_title_div_contect p a::selection{
+    color: #780000;
+}
+
+.head_title_div_contect p::selection{
+    color: #780000;
+}
+#head_facebook :hover{
+    color: #c1121f;
+}
+#head_email :hover{
+    color: #c1121f;
+}
+#head_email a{
+    text-decoration: none;
+    color: #2a9d8f;
+}
+#head_facebook{
+    font-size: 18px;
+    font-weight: bolder;
+    font-family: Arial, Helvetica, sans-serif;
+    color: #2a9d8f;
+}
+#head_facebook a{
+    text-transform: uppercase;
+}
+#head_facebook a{
+    text-decoration: none;
+    color: #2a9d8f;
+}
+#head_call{
+    font-size: 18px;
+    font-weight: bolder;
+    font-family: Arial, Helvetica, sans-serif;
+    color: #2a9d8f;
+}
+#head_call a{
+    text-decoration: none;
+    color: #2a9d8f;
+}
+#cleare_div{
+    clear: both;
+}
+#hr_div_head{
+    border: #073b4c 2px solid;
+    margin-top: 10px;
+}
+/*head div end css*/
+.head_title_main_div{
+    text-transform: uppercase;
+    font-family: Arial, Helvetica, sans-serif;
+    color: #2a9d8f;
+    font-size: 25px;
+    font-weight: bolder;
+    margin-top: 10px;
+}
+.head_title_main_div::selection{
+    color: #780000;
+}
+.title_name{
+    float: left;
+    padding: 5px 200px 5px 30px ;
+    box-sizing: border-box;
+}
+.title_name p::selection{
+    color: #780000;
+}
+.title_name p{
+    color: #2a9d8f;
+    font-family: Arial, Helvetica, sans-serif;
+    font-weight: bold;
+    font-size: 18px;
+    text-transform: uppercase;
+}
+#all_hr{
+    border: #073b4c 2px solid;
+    margin-top: 5px;
+}
